@@ -1,0 +1,42 @@
+@media only screen and (min-width:320px){
+    button{
+        margin-left: 7.5rem;
+    }
+    .nav{
+        margin-left: .5rem;
+    }
+    img#nav-logo{
+        display: none;
+    }
+}
+@media only screen and (min-width:375px){
+    button{
+        margin-left: 9.5rem;
+    }
+    .nav{
+        margin-left: 2.3rem;
+    }
+    img#nav-logo{
+        display: none;
+    }
+}
+@media only screen and (min-width:425px){
+    img#nav-logo{
+        display: none;
+    }
+    button{
+        margin-left: 10rem;
+    }
+    .nav{
+        margin-left: 3.8rem;
+    }
+}
+@media only screen and (min-width:768px) {
+    
+    .nav{
+        margin-left: 3.8rem;
+    }
+}
+@media only screen and (min-width:1024px){
+    /*toggle button to open position?*/
+}
