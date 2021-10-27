@@ -6,7 +6,9 @@ import './App.css';
 import HeaderPhoto from './components/headerPhoto/headerPhoto';
 import Navbar from './components/navbar/navbar';
 import HomePage from './components/homePage/homePage';
+import ClassPage from "./components/classPage/classPage";
 import Class from "./components/class/class";
+import Contact from "./components/contact/contact";
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -20,8 +22,9 @@ function App() {
         <Navbar></Navbar>
         
         <Switch>
-          <Route path="/home" exact component={HomePage}></Route>
-          //<Route path="/classes" exact component={Class}></Route>
+          <Route path="/" exact component={HomePage}></Route>
+          <Route path="/classes" exact component={ClassPage}></Route>
+          <Route path="/contact" exact component={Contact}></Route>
         </Switch>
       </div>
       </BrowserRouter>
