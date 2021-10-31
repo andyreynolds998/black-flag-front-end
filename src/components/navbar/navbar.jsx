@@ -14,19 +14,19 @@ class Navigator extends React.Component {
     render() {
         return <Navbar bg="dark" variant='dark' expand="xl">
             <Container>
-                <Navbar.Brand className="nav" href="#home">
+                <Navbar.Brand className="nav" href="/">
                     <img id='nav-logo'
                         src='/logo.png'
                         width='40'
                         height='40'
                     />
-                    Black Flag Gunfighter Academy </Navbar.Brand>
+                    Black Flag Services </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link id='nav-link' href="#home">Courses</Nav.Link>
-                        <Nav.Link id='nav-link' href="#link">FAQ</Nav.Link>
-                        <Nav.Link href='#Contact'>Contact us</Nav.Link>
+                        <Nav.Link id='nav-link' href="/courses">Courses</Nav.Link>
+                        <Nav.Link id='nav-link' href="/faq">FAQ</Nav.Link>
+                        <Nav.Link href='/contact'>Contact us</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

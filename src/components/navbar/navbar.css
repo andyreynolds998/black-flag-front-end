@@ -3,7 +3,7 @@
         margin-left: 7.5rem;
     }
     .nav{
-        margin-left: .5rem;
+        margin-left: 4.5rem;
     }
     img#nav-logo{
         display: none;
@@ -14,7 +14,7 @@
         margin-left: 9.5rem;
     }
     .nav{
-        margin-left: 2.3rem;
+        margin-left: 6.3rem;
     }
     img#nav-logo{
         display: none;
@@ -28,15 +28,17 @@
         margin-left: 10rem;
     }
     .nav{
-        margin-left: 3.8rem;
+        margin-left: 6.8rem;
     }
 }
 @media only screen and (min-width:768px) {
     
     .nav{
-        margin-left: 3.8rem;
+        margin-left: 17rem;
     }
 }
 @media only screen and (min-width:1024px){
-    /*toggle button to open position?*/
+    .nav{
+        margin-left: 24rem;
+    }
 }
