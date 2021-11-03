@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './class.css';
+
 class Class extends React.Component {
     render() {
         return <div className="class">
